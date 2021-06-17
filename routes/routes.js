@@ -86,7 +86,7 @@ routes.get("/admin", async (req, res) => {
 routes.get("/", (req, res, next) => {
     res.status(200).json({
         status: "Sucess", 
-        msg: "Grupo 04: Henrique, Marcos, Pedro, Roberta"
+        msg: "Grupo 04: Henrique, Marcos, Pedro, Roberta, Mateus"
     });
 });
 
